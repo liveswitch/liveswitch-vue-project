@@ -1,0 +1,6 @@
+{
+    "applicationId": "replace-with-your-app-id",
+    "gatewayUrl" : "https://cloud.liveswitch.io", 
+    "channelId": "/room/1",
+    "sharedSecret": "replace-with-your-shared-secret"
+}
