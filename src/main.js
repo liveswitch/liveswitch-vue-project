@@ -4,7 +4,7 @@ import router from './router'
 import ls from 'fm.liveswitch'
 
 // Import the LiveSwitch configuration
-import { applicationId, channelId, sharedSecret } from '../liveswitch_config.json'
+import { applicationId, channelId, sharedSecret, gatewayUrl } from '../liveswitch_config.json'
 
 // Import the plugin
 import { LiveSwitchPlugin } from './liveswitch'
@@ -39,6 +39,7 @@ const onParticipantLeave = function (record) {
 Vue.use(LiveSwitchPlugin, {
   applicationId,
   token,
+  gatewayUrl,
   onLocalMediaReady,
   onParticipantJoin,
   onParticipantLeave

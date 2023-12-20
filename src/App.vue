@@ -30,8 +30,8 @@
   color: #42b983;
 }
 video {
-  width: auto;
-  height: auto;
-  position: relative;
+  width: auto !important;
+  height: auto !important;
+  position: relative !important;
 }
 </style>
